@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This centers the content vertically on the page */
+}
+
+.flex-container-outer {
+    background-color: pink;
+    width: 50%;
+    height: max-content;
+    padding-bottom: 20px;
+}
+
+label {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+input {
+    padding: 5px;
+    width: 100px;
+}
